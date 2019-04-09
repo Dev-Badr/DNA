@@ -28,28 +28,28 @@ So, Skytells DNA is
 
 ### Install and run
 
-You need golang (at least 1.5) installed and configured:
+You need `golang` (at least 1.5) installed and configured:
 
-```sh
+```bash
 $ go get -u github.com/skytells-research/DNA
 ```
 
 if you have config in /etc/sdna.conf
 
-```sh
+```bash
 $ sudo $GOPATH/bin/sdna
 ```
 
   if you want to specify different location of config (or if you need to run several instances)
 
-```sh
+```bash
 $ sudo $GOPATH/bin/sdna -config sdna.conf
 ```
 
 if you host is hidden behind firewall (with udp port forward) sdna is unable to detect
 which "remote" is localhost. In this case use next syntax:
 
-```sh
+```bash
 $ sudo $GOPATH/bin/sdna -local berlin -config sdna.conf
 ```
 

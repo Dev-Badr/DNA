@@ -20,7 +20,7 @@ package dto
 import (
 	"time"
 
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/money"
 )
 
 // PaymentMethodPerTime defines payment method for used amount of time of service

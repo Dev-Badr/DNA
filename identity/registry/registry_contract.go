@@ -24,8 +24,8 @@ import (
 	log "github.com/cihub/seelog"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/payments/contracts/abigen"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/payments/contracts/abigen"
 )
 
 const logPrefix = "[registry] "

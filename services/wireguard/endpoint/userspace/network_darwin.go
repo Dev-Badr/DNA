@@ -21,7 +21,7 @@ import (
 	"net"
 
 	"github.com/jackpal/gateway"
-	"github.comskytells-research/DNA/network/node/utils"
+	"github.com/skytells-research/DNA/network/node/utils"
 )
 
 func assignIP(iface string, subnet net.IPNet) error {

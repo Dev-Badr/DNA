@@ -17,7 +17,7 @@
 
 package dto
 
-import "github.comskytells-research/DNA/network/node/market"
+import "github.com/skytells-research/DNA/network/node/market"
 
 // ServiceDefinition structure represents various service parameters
 type ServiceDefinition struct {

@@ -18,9 +18,9 @@
 package connection
 
 import (
-	"github.comskytells-research/DNA/network/node/core/connection"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/node/services/wireguard/key"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/key"
 )
 
 // Factory is the wireguard connection factory

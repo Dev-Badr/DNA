@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/services/openvpn"
-	dto_openvpn "github.comskytells-research/DNA/network/node/services/openvpn/discovery/dto"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/services/openvpn"
+	dto_openvpn "github.com/skytells-research/DNA/network/node/services/openvpn/discovery/dto"
 	"github.com/stretchr/testify/assert"
 )
 

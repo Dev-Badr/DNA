@@ -21,12 +21,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/core/connection"
-	"github.comskytells-research/DNA/network/node/core/promise"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/logconfig"
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/promise"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/logconfig"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

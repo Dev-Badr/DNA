@@ -19,7 +19,7 @@
 
 package openvpn
 
-import "github.comskytells-research/DNA/network/go-openvpn/openvpn/config"
+import "github.com/skytells-research/DNA/network/go-openvpn/openvpn/config"
 
 func newClientConfig(runtimeDir string, scriptSearchPath string) *ClientConfig {
 	clientConfig := defaultClientConfig(runtimeDir, scriptSearchPath)

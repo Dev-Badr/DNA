@@ -20,8 +20,8 @@ package session
 import (
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/session"
 	"github.com/stretchr/testify/assert"
 )
 

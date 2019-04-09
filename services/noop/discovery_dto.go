@@ -18,8 +18,8 @@
 package noop
 
 import (
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
 )
 
 // ServiceType indicates "noop" service type

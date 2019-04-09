@@ -23,8 +23,8 @@ import (
 	"net"
 	"os"
 
-	"github.comskytells-research/DNA/network/wireguard-go/device"
-	"github.comskytells-research/DNA/network/wireguard-go/tun"
+	"github.com/skytells-research/DNA/network/wireguard-go/device"
+	"github.com/skytells-research/DNA/network/wireguard-go/tun"
 	"github.com/pkg/errors"
 	"github.com/songgao/water"
 )

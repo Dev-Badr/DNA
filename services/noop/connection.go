@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/connection"
 )
 
 // Connection which does no real tunneling

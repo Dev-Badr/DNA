@@ -18,7 +18,7 @@
 package noop
 
 import (
-	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/connection"
 )
 
 // ConnectionFactory is the noop connection factory

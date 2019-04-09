@@ -21,7 +21,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // SessionMap defines map of current sessions

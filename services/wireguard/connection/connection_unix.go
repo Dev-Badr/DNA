@@ -20,8 +20,8 @@
 package connection
 
 import (
-	"github.comskytells-research/DNA/network/node/services/wireguard/resources"
-	"github.comskytells-research/DNA/network/node/services/wireguard/service"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/resources"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/service"
 )
 
 func connectionResourceAllocator() *resources.Allocator {

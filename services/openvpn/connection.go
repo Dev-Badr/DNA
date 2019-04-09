@@ -18,8 +18,8 @@
 package openvpn
 
 import (
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn"
-	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn"
+	"github.com/skytells-research/DNA/network/node/core/connection"
 )
 
 // OpenvpnStateMap maps openvpn states to connection state

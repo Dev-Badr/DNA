@@ -24,13 +24,13 @@ import (
 	"sync"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/location"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/nat"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/node/services/wireguard/endpoint"
-	"github.comskytells-research/DNA/network/node/services/wireguard/resources"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/nat"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/endpoint"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/resources"
+	"github.com/skytells-research/DNA/network/node/session"
 	"github.com/pkg/errors"
 )
 

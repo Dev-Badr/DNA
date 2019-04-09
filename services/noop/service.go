@@ -23,10 +23,10 @@ import (
 	"sync"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 const logPrefix = "[service-noop] "

@@ -18,7 +18,7 @@
 package location
 
 import (
-	"github.comskytells-research/DNA/network/node/core/ip"
+	"github.com/skytells-research/DNA/network/node/core/ip"
 )
 
 // NewDetector constructs Detector instance

@@ -21,12 +21,12 @@ package endpoint
 
 import (
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/location"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/node/services/wireguard/endpoint/kernelspace"
-	"github.comskytells-research/DNA/network/node/services/wireguard/endpoint/userspace"
-	"github.comskytells-research/DNA/network/node/services/wireguard/resources"
-	"github.comskytells-research/DNA/network/node/utils"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/endpoint/kernelspace"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/endpoint/userspace"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/resources"
+	"github.com/skytells-research/DNA/network/node/utils"
 )
 
 // NewConnectionEndpoint creates new wireguard connection endpoint.

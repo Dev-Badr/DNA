@@ -18,8 +18,8 @@
 package openvpn
 
 import (
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/config"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/tls"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/config"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/tls"
 )
 
 // ServerConfig defines openvpn in server mode configuration structure

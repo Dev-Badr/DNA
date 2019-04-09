@@ -20,18 +20,18 @@ package openvpn
 import (
 	"time"
 
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/management"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/auth"
-	openvpn_bytescount "github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/state"
-	"github.comskytells-research/DNA/network/node/core/connection"
-	"github.comskytells-research/DNA/network/node/core/ip"
-	"github.comskytells-research/DNA/network/node/core/location"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/services/openvpn/middlewares/client/bytescount"
-	openvpn_session "github.comskytells-research/DNA/network/node/services/openvpn/session"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/management"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/auth"
+	openvpn_bytescount "github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/state"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/ip"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/services/openvpn/middlewares/client/bytescount"
+	openvpn_session "github.com/skytells-research/DNA/network/node/services/openvpn/session"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // ProcessBasedConnectionFactory represents a factory for creating process-based openvpn connections

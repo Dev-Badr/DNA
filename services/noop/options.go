@@ -20,7 +20,7 @@ package noop
 import (
 	"encoding/json"
 
-	"github.comskytells-research/DNA/network/node/core/service"
+	"github.com/skytells-research/DNA/network/node/core/service"
 	"github.com/urfave/cli"
 )
 

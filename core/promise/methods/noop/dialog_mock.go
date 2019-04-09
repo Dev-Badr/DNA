@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.comskytells-research/DNA/network/node/communication"
-	"github.comskytells-research/DNA/network/node/core/promise"
-	"github.comskytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/core/promise"
+	"github.com/skytells-research/DNA/network/node/identity"
 )
 
 type fakeDialog struct {

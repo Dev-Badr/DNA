@@ -22,7 +22,7 @@ import (
 	"net"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/service"
+	"github.com/skytells-research/DNA/network/node/core/service"
 	"github.com/urfave/cli"
 )
 

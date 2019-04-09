@@ -18,10 +18,10 @@
 package connection
 
 import (
-	"github.comskytells-research/DNA/network/node/communication"
-	"github.comskytells-research/DNA/network/node/consumer"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/consumer"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/market"
 )
 
 // DialogCreator creates new dialog between consumer and provider, using given contact information

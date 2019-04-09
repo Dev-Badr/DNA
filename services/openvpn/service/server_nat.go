@@ -19,7 +19,7 @@ package service
 
 import (
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn"
 )
 
 const restartingServerLogPrefix = "[nat-openvpn] "

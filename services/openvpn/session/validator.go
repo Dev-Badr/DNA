@@ -20,8 +20,8 @@ package session
 import (
 	"sync"
 
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // SignaturePrefix is used to prefix with each session string before calculating signature or extracting identity

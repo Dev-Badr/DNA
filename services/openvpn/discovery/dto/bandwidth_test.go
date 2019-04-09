@@ -22,7 +22,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/datasize"
+	"github.com/skytells-research/DNA/network/node/datasize"
 	"github.com/stretchr/testify/assert"
 )
 

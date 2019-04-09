@@ -23,10 +23,10 @@ import (
 
 	log "github.com/cihub/seelog"
 	"github.com/gofrs/uuid"
-	"github.comskytells-research/DNA/network/node/communication"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // StopTopic is used in event bus to announce that service was stopped
@@ -156,7 +156,7 @@ func (manager *Manager) Start(providerID identity.Identity, serviceType string, 
 
 		instance.state = NotRunning
 
-		// TODO: fix https://github.comskytells-research/DNA/network/node/issues/855
+		// TODO: fix https://github.com/skytells-research/DNA/network/node/issues/855
 		stopErr := manager.servicePool.Stop(id)
 		if stopErr != nil {
 			log.Error("Service stop failed: ", stopErr)

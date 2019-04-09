@@ -20,10 +20,10 @@ package session
 import (
 	"testing"
 
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/management"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/server/auth"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/management"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/server/auth"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/session"
 	"github.com/stretchr/testify/assert"
 )
 

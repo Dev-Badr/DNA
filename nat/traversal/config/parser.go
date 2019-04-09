@@ -20,7 +20,7 @@ package config
 import (
 	"encoding/json"
 
-	"github.comskytells-research/DNA/network/node/services/openvpn"
+	"github.com/skytells-research/DNA/network/node/services/openvpn"
 	"github.com/pkg/errors"
 )
 

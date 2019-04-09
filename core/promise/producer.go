@@ -18,7 +18,7 @@
 package promise
 
 import (
-	"github.comskytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/communication"
 )
 
 // Producer creates requests/responses of the "promise-create" events

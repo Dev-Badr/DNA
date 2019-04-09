@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

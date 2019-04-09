@@ -20,8 +20,8 @@ package bytescount
 import (
 	"testing"
 
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
-	"github.comskytells-research/DNA/network/node/consumer"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
+	"github.com/skytells-research/DNA/network/node/consumer"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -26,7 +26,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn"
 )
 
 func Test_RestartingServerStartsAndStops(t *testing.T) {

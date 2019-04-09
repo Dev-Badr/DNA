@@ -18,9 +18,9 @@
 package service
 
 import (
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
 )
 
 const logPrefix = "[service-wireguard] "

@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.comskytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
+	"github.com/skytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
 )
 
 type myTestType struct {

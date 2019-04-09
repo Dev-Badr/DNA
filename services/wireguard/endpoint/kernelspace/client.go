@@ -26,8 +26,8 @@ import (
 	"github.com/jackpal/gateway"
 	"github.com/mdlayher/wireguardctrl"
 	"github.com/mdlayher/wireguardctrl/wgtypes"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/node/utils"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/utils"
 )
 
 var allowedIPs = []net.IPNet{

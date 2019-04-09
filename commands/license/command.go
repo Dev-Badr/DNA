@@ -20,7 +20,7 @@ package license
 import (
 	"fmt"
 
-	"github.comskytells-research/DNA/network/node/metadata"
+	"github.com/skytells-research/DNA/network/node/metadata"
 	"github.com/urfave/cli"
 )
 

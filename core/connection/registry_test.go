@@ -20,7 +20,7 @@ package connection
 import (
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/consumer"
+	"github.com/skytells-research/DNA/network/node/consumer"
 	"github.com/stretchr/testify/assert"
 )
 

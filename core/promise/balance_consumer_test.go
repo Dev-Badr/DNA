@@ -17,6 +17,6 @@
 
 package promise
 
-import "github.comskytells-research/DNA/network/node/communication"
+import "github.com/skytells-research/DNA/network/node/communication"
 
 var _ communication.MessageConsumer = &BalanceMessageConsumer{}

@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/asdine/storm"
-	"github.comskytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
-	"github.comskytells-research/DNA/network/node/core/storage/boltdb/migrations"
+	"github.com/skytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
+	"github.com/skytells-research/DNA/network/node/core/storage/boltdb/migrations"
 	"github.com/stretchr/testify/assert"
 )
 

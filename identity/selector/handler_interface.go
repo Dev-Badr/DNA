@@ -17,7 +17,7 @@
 
 package selector
 
-import "github.comskytells-research/DNA/network/node/identity"
+import "github.com/skytells-research/DNA/network/node/identity"
 
 // Handler allows selecting identity to be used
 type Handler interface {

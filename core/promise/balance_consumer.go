@@ -18,7 +18,7 @@
 package promise
 
 import (
-	"github.comskytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/communication"
 )
 
 // BalanceMessageConsumer process balance notification from communication channel.

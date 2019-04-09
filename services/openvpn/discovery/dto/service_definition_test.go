@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/datasize"
-	"github.comskytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/datasize"
+	"github.com/skytells-research/DNA/network/node/market"
 	"github.com/stretchr/testify/assert"
 )
 

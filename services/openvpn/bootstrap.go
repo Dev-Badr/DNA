@@ -20,8 +20,8 @@ package openvpn
 import (
 	"encoding/json"
 
-	"github.comskytells-research/DNA/network/node/market"
-	dto_openvpn "github.comskytells-research/DNA/network/node/services/openvpn/discovery/dto"
+	"github.com/skytells-research/DNA/network/node/market"
+	dto_openvpn "github.com/skytells-research/DNA/network/node/services/openvpn/discovery/dto"
 )
 
 // ServiceType indicates "openvpn" service type

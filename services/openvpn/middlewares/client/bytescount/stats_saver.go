@@ -18,9 +18,9 @@
 package bytescount
 
 import (
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
-	"github.comskytells-research/DNA/network/node/consumer"
-	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/middlewares/client/bytescount"
+	"github.com/skytells-research/DNA/network/node/consumer"
+	"github.com/skytells-research/DNA/network/node/core/connection"
 )
 
 // NewSessionStatsSaver returns stats handler, which saves stats stats keeper

@@ -21,10 +21,10 @@ import (
 	"fmt"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/communication"
-	"github.comskytells-research/DNA/network/node/core/promise"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/core/promise"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/market"
 )
 
 const issuerLogPrefix = "[promise-issuer] "

@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.comskytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/identity"
 )
 
 const (

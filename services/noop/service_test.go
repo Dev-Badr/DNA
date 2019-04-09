@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.comskytells-research/DNA/network/node/core/service"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/core/service"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

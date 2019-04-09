@@ -18,8 +18,8 @@
 package dto
 
 import (
-	"github.comskytells-research/DNA/network/node/datasize"
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/datasize"
+	"github.com/skytells-research/DNA/network/node/money"
 )
 
 // PaymentMethodPerBytes indicates payment method for data amount transferred

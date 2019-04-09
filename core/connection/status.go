@@ -18,8 +18,8 @@
 package connection
 
 import (
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // State represents list of possible connection states

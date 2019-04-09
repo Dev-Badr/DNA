@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/wireguard-go/device"
-	"github.comskytells-research/DNA/network/wireguard-go/tun"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/wireguard-go/device"
+	"github.com/skytells-research/DNA/network/wireguard-go/tun"
 	"github.com/pkg/errors"
 )
 

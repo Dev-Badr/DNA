@@ -18,7 +18,7 @@
 package nat
 
 import (
-	"github.comskytells-research/DNA/network/node/utils"
+	"github.com/skytells-research/DNA/network/node/utils"
 )
 
 // NewService returns Windows OS specific NAT service based on Internet Connection Sharing (ICS).

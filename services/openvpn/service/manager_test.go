@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/session"
 	"github.com/stretchr/testify/assert"
 )
 

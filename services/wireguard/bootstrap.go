@@ -20,7 +20,7 @@ package wireguard
 import (
 	"encoding/json"
 
-	"github.comskytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/market"
 )
 
 // Bootstrap is called on program initialization time and registers various deserializers related to wireguard service

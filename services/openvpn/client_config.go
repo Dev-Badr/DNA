@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn/config"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn/config"
 )
 
 // ClientConfig represents specific "openvpn as client" configuration

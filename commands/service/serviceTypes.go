@@ -18,12 +18,12 @@
 package service
 
 import (
-	"github.comskytells-research/DNA/network/node/core/service"
-	"github.comskytells-research/DNA/network/node/services/noop"
-	"github.comskytells-research/DNA/network/node/services/openvpn"
-	openvpn_service "github.comskytells-research/DNA/network/node/services/openvpn/service"
-	"github.comskytells-research/DNA/network/node/services/wireguard"
-	wireguard_service "github.comskytells-research/DNA/network/node/services/wireguard/service"
+	"github.com/skytells-research/DNA/network/node/core/service"
+	"github.com/skytells-research/DNA/network/node/services/noop"
+	"github.com/skytells-research/DNA/network/node/services/openvpn"
+	openvpn_service "github.com/skytells-research/DNA/network/node/services/openvpn/service"
+	"github.com/skytells-research/DNA/network/node/services/wireguard"
+	wireguard_service "github.com/skytells-research/DNA/network/node/services/wireguard/service"
 	"github.com/urfave/cli"
 )
 

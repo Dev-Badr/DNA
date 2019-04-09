@@ -20,8 +20,8 @@ package registry
 import (
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/common"
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/payments/registry"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/payments/registry"
 )
 
 // NewRegistrationDataProvider creates registration data provider backed up by identity which is managed by keystore

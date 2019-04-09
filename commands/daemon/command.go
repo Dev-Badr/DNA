@@ -18,7 +18,7 @@
 package daemon
 
 import (
-	"github.comskytells-research/DNA/network/node/cmd"
+	"github.com/skytells-research/DNA/network/node/cmd"
 	"github.com/urfave/cli"
 )
 

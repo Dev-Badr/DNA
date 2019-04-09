@@ -20,7 +20,7 @@ package dto
 import (
 	"strconv"
 
-	"github.comskytells-research/DNA/network/node/datasize"
+	"github.com/skytells-research/DNA/network/node/datasize"
 )
 
 // Bandwidth represents connection bandwidth data type

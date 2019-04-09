@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/storage/boltdb/migrations"
+	"github.com/skytells-research/DNA/network/node/core/storage/boltdb/migrations"
 )
 
 const migrationLogPrefix = "[migrator] "

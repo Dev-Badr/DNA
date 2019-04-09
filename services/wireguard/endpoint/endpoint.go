@@ -22,10 +22,10 @@ import (
 	"net"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/location"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	"github.comskytells-research/DNA/network/node/services/wireguard/key"
-	"github.comskytells-research/DNA/network/node/services/wireguard/resources"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/key"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/resources"
 )
 
 const logPrefix = "[wireguard-connection-endpoint] "

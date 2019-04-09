@@ -24,12 +24,12 @@ import (
 	"time"
 
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/consumer"
-	"github.comskytells-research/DNA/network/node/core/connection"
-	"github.comskytells-research/DNA/network/node/core/location"
-	wg "github.comskytells-research/DNA/network/node/services/wireguard"
-	endpoint "github.comskytells-research/DNA/network/node/services/wireguard/endpoint"
-	"github.comskytells-research/DNA/network/node/services/wireguard/key"
+	"github.com/skytells-research/DNA/network/node/consumer"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	wg "github.com/skytells-research/DNA/network/node/services/wireguard"
+	endpoint "github.com/skytells-research/DNA/network/node/services/wireguard/endpoint"
+	"github.com/skytells-research/DNA/network/node/services/wireguard/key"
 	"github.com/pkg/errors"
 )
 

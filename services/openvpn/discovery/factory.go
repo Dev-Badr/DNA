@@ -20,11 +20,11 @@ package discovery
 import (
 	"time"
 
-	"github.comskytells-research/DNA/network/node/datasize"
-	"github.comskytells-research/DNA/network/node/market"
-	"github.comskytells-research/DNA/network/node/money"
-	"github.comskytells-research/DNA/network/node/services/openvpn"
-	"github.comskytells-research/DNA/network/node/services/openvpn/discovery/dto"
+	"github.com/skytells-research/DNA/network/node/datasize"
+	"github.com/skytells-research/DNA/network/node/market"
+	"github.com/skytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/services/openvpn"
+	"github.com/skytells-research/DNA/network/node/services/openvpn/discovery/dto"
 )
 
 // NewServiceProposalWithLocation creates service proposal description for openvpn service

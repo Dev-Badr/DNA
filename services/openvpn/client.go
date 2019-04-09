@@ -19,9 +19,9 @@ package openvpn
 
 import (
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/go-openvpn/openvpn"
-	"github.comskytells-research/DNA/network/node/core/connection"
-	"github.comskytells-research/DNA/network/node/core/ip"
+	"github.com/skytells-research/DNA/network/go-openvpn/openvpn"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/ip"
 	"github.com/pkg/errors"
 )
 

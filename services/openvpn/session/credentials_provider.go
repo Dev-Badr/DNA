@@ -18,8 +18,8 @@
 package session
 
 import (
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/session"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/session"
 )
 
 // SignatureCredentialsProvider returns session id as username and id signed with given signer as password

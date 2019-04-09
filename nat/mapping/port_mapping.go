@@ -20,7 +20,7 @@ package mapping
 import (
 	"time"
 
-	"github.comskytells-research/DNA/network/node/nat/traversal"
+	"github.com/skytells-research/DNA/network/node/nat/traversal"
 
 	log "github.com/cihub/seelog"
 	portmap "github.com/ethereum/go-ethereum/p2p/nat"

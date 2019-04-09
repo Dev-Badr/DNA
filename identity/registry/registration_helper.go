@@ -19,7 +19,7 @@ package registry
 
 import (
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/payments/registry"
+	"github.com/skytells-research/DNA/network/payments/registry"
 )
 
 // PrintRegistrationData prints identity registration data needed to register identity with payments contract

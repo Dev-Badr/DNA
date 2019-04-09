@@ -20,7 +20,7 @@ package history
 import (
 	"time"
 
-	"github.comskytells-research/DNA/network/node/core/storage/boltdb/migrations"
+	"github.com/skytells-research/DNA/network/node/core/storage/boltdb/migrations"
 )
 
 // Sequence contains the whole migration sequence for boltdb

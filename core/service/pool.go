@@ -21,10 +21,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.comskytells-research/DNA/network/node/communication"
-	"github.comskytells-research/DNA/network/node/market"
-	discovery_registry "github.comskytells-research/DNA/network/node/market/proposals/registry"
-	"github.comskytells-research/DNA/network/node/utils"
+	"github.com/skytells-research/DNA/network/node/communication"
+	"github.com/skytells-research/DNA/network/node/market"
+	discovery_registry "github.com/skytells-research/DNA/network/node/market/proposals/registry"
+	"github.com/skytells-research/DNA/network/node/utils"
 )
 
 // ID represent unique identifier of the running service.

@@ -21,8 +21,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/identity"
-	"github.comskytells-research/DNA/network/node/money"
+	"github.com/skytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

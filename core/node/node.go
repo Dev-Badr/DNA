@@ -19,10 +19,10 @@ package node
 
 import (
 	log "github.com/cihub/seelog"
-	"github.comskytells-research/DNA/network/node/core/connection"
-	"github.comskytells-research/DNA/network/node/core/location"
-	"github.comskytells-research/DNA/network/node/metrics"
-	"github.comskytells-research/DNA/network/node/tequilapi"
+	"github.com/skytells-research/DNA/network/node/core/connection"
+	"github.com/skytells-research/DNA/network/node/core/location"
+	"github.com/skytells-research/DNA/network/node/metrics"
+	"github.com/skytells-research/DNA/network/node/tequilapi"
 )
 
 // NatPinger allows to send nat pings as well as stop it

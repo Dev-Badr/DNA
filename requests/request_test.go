@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.comskytells-research/DNA/network/node/identity"
+	"github.com/skytells-research/DNA/network/node/identity"
 	"github.com/stretchr/testify/assert"
 )
 

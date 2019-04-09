@@ -18,8 +18,8 @@
 package registry
 
 import (
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/payments/registry"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/payments/registry"
 )
 
 // IdentityRegistry enables identity registration actions

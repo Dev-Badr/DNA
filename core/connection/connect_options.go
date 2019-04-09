@@ -18,9 +18,9 @@
 package connection
 
 import (
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/session"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/session"
 )
 
 // ConnectParams holds plugin specific params

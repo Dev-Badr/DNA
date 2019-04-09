@@ -20,7 +20,7 @@ package selector
 import (
 	"errors"
 
-	"github.com/mysteriumnetwork/node/identity"
+	"github.comskytells-research/DNA/network/node/identity"
 )
 
 type handlerFake struct {

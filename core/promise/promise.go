@@ -23,10 +23,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/money"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/money"
 )
 
 const endpoint = "promise-create"

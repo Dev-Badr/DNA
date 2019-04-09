@@ -19,7 +19,7 @@ package registry
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/payments/registry"
+	"github.comskytells-research/DNA/network/payments/registry"
 )
 
 // PrintRegistrationData prints identity registration data needed to register identity with payments contract
@@ -35,7 +35,7 @@ func PrintRegistrationData(data *registry.RegistrationData) {
 	log.Infof("           V -> 0x%X", data.Signature.V)
 	log.Info("OR")
 	log.Info("Execute the following link: ")
-	log.Infof("https://wallet.mysterium.network/?part1=0x%X&part2=0x%X&s=0x%X&r=0x%X&v=0x%X%v",
+	log.Infof("https://wallet.sdna.network/?part1=0x%X&part2=0x%X&s=0x%X&r=0x%X&v=0x%X%v",
 		data.PublicKey.Part1,
 		data.PublicKey.Part2,
 		data.Signature.S,

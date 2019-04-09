@@ -18,8 +18,8 @@
 package promise
 
 import (
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/money"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/money"
 )
 
 const balanceEndpoint = communication.MessageEndpoint("promise-balance")

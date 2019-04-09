@@ -18,7 +18,7 @@
 package location
 
 import (
-	"github.com/mysteriumnetwork/node/core/location/gendb"
+	"github.comskytells-research/DNA/network/node/core/location/gendb"
 	"github.com/oschwald/geoip2-golang"
 )
 

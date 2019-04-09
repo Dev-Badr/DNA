@@ -17,7 +17,7 @@
 
 package promise
 
-import "github.com/mysteriumnetwork/node/money"
+import "github.comskytells-research/DNA/network/node/money"
 
 // SignedPromise represents payment promise signed by issuer
 type SignedPromise struct {

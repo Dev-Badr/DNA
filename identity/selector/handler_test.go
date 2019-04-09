@@ -20,7 +20,7 @@ package selector
 import (
 	"testing"
 
-	"github.com/mysteriumnetwork/node/identity"
+	"github.comskytells-research/DNA/network/node/identity"
 	"github.com/stretchr/testify/assert"
 )
 

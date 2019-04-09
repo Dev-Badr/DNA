@@ -17,7 +17,7 @@
 
 package selector
 
-import "github.com/mysteriumnetwork/node/identity"
+import "github.comskytells-research/DNA/network/node/identity"
 
 // Loader selects the identity
 type Loader func() (identity.Identity, error)

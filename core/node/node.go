@@ -19,10 +19,10 @@ package node
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/core/connection"
-	"github.com/mysteriumnetwork/node/core/location"
-	"github.com/mysteriumnetwork/node/metrics"
-	"github.com/mysteriumnetwork/node/tequilapi"
+	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.comskytells-research/DNA/network/node/core/location"
+	"github.comskytells-research/DNA/network/node/metrics"
+	"github.comskytells-research/DNA/network/node/tequilapi"
 )
 
 // NatPinger allows to send nat pings as well as stop it
@@ -31,7 +31,7 @@ type NatPinger interface {
 	Stop()
 }
 
-// NewNode function creates new Mysterium node by given options
+// NewNode function creates new sdna node by given options
 func NewNode(
 	connectionManager connection.Manager,
 	tequilapiServer tequilapi.APIServer,
@@ -48,7 +48,7 @@ func NewNode(
 	}
 }
 
-// Node represent entrypoint for Mysterium node with top level components
+// Node represent entrypoint for sdna node with top level components
 type Node struct {
 	connectionManager     connection.Manager
 	httpAPIServer         tequilapi.APIServer
@@ -57,7 +57,7 @@ type Node struct {
 	natPinger             NatPinger
 }
 
-// Start starts Mysterium node (Tequilapi service, fetches location)
+// Start starts sdna node (Tequilapi service, fetches location)
 func (node *Node) Start() error {
 	go func() {
 		err := node.metricsSender.SendStartupEvent()
@@ -90,12 +90,12 @@ func (node *Node) Start() error {
 	return nil
 }
 
-// Wait blocks until Mysterium node is stopped
+// Wait blocks until sdna node is stopped
 func (node *Node) Wait() error {
 	return node.httpAPIServer.Wait()
 }
 
-// Kill stops Mysterium node
+// Kill stops sdna node
 func (node *Node) Kill() error {
 	err := node.connectionManager.Disconnect()
 	if err != nil {

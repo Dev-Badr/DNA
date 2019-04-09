@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/money"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

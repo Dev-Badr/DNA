@@ -17,7 +17,7 @@
 
 package noop
 
-import "github.com/mysteriumnetwork/node/market"
+import "github.comskytells-research/DNA/network/node/market"
 
 // FakePromiseEngine do nothing. It required for the temporary --experiment-promise-check flag.
 // TODO it should be removed once --experiment-promise-check will be deleted.

@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mysteriumnetwork/node/consumer"
-	consumer_session "github.com/mysteriumnetwork/node/consumer/session"
-	"github.com/mysteriumnetwork/node/core/storage/boltdb/boltdbtest"
-	"github.com/mysteriumnetwork/node/identity"
-	node_session "github.com/mysteriumnetwork/node/session"
+	"github.comskytells-research/DNA/network/node/consumer"
+	consumer_session "github.comskytells-research/DNA/network/node/consumer/session"
+	"github.comskytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
+	"github.comskytells-research/DNA/network/node/identity"
+	node_session "github.comskytells-research/DNA/network/node/session"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -21,12 +21,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mysteriumnetwork/node/core/connection"
-	"github.com/mysteriumnetwork/node/core/promise"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/logconfig"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/money"
+	"github.comskytells-research/DNA/network/node/core/connection"
+	"github.comskytells-research/DNA/network/node/core/promise"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/logconfig"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/money"
 	"github.com/stretchr/testify/assert"
 )
 

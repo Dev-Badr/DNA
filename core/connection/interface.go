@@ -18,10 +18,10 @@
 package connection
 
 import (
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/consumer"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/consumer"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
 )
 
 // DialogCreator creates new dialog between consumer and provider, using given contact information

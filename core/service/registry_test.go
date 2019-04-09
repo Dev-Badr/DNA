@@ -21,7 +21,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mysteriumnetwork/node/market"
+	"github.comskytells-research/DNA/network/node/market"
 	"github.com/stretchr/testify/assert"
 )
 

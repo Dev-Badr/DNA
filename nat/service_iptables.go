@@ -21,7 +21,7 @@ import (
 	"sync"
 
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/utils"
+	"github.comskytells-research/DNA/network/node/utils"
 	"github.com/pkg/errors"
 )
 

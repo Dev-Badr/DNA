@@ -19,7 +19,7 @@ package registry
 
 import (
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/identity"
+	"github.comskytells-research/DNA/network/node/identity"
 )
 
 // FakeRegistry fake register

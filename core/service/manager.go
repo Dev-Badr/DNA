@@ -23,10 +23,10 @@ import (
 
 	log "github.com/cihub/seelog"
 	"github.com/gofrs/uuid"
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/session"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/session"
 )
 
 // StopTopic is used in event bus to announce that service was stopped
@@ -39,7 +39,7 @@ var (
 	ErrUnsupportedServiceType = errors.New("unsupported service type")
 )
 
-// Service interface represents pluggable Mysterium service
+// Service interface represents pluggable sdna service
 type Service interface {
 	Serve(providerID identity.Identity) error
 	Stop() error
@@ -90,7 +90,7 @@ func NewManager(
 	}
 }
 
-// Manager entrypoint which knows how to start pluggable Mysterium instances
+// Manager entrypoint which knows how to start pluggable sdna instances
 type Manager struct {
 	dialogWaiterFactory  DialogWaiterFactory
 	dialogHandlerFactory DialogHandlerFactory
@@ -156,7 +156,7 @@ func (manager *Manager) Start(providerID identity.Identity, serviceType string, 
 
 		instance.state = NotRunning
 
-		// TODO: fix https://github.com/mysteriumnetwork/node/issues/855
+		// TODO: fix https://github.comskytells-research/DNA/network/node/issues/855
 		stopErr := manager.servicePool.Stop(id)
 		if stopErr != nil {
 			log.Error("Service stop failed: ", stopErr)

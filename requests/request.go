@@ -24,11 +24,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/mysteriumnetwork/node/identity"
+	"github.comskytells-research/DNA/network/node/identity"
 )
 
 const (
-	mysteriumAgentName       = "goclient-v0.1"
+	sdnaAgentName       = "goclient-v0.1"
 	authenticationHeaderName = "Authorization"
 	authenticationSchemaName = "Signature"
 )
@@ -99,7 +99,7 @@ func newRequest(method, apiURI, path string, body []byte) (*http.Request, error)
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Set("User-Agent", mysteriumAgentName)
+	req.Header.Set("User-Agent", sdnaAgentName)
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Accept", "application/json")
 

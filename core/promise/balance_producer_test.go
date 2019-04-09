@@ -17,6 +17,6 @@
 
 package promise
 
-import "github.com/mysteriumnetwork/node/communication"
+import "github.comskytells-research/DNA/network/node/communication"
 
 var _ communication.MessageProducer = &BalanceMessageProducer{}

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The "MysteriumNetwork/node" Authors.
+ * Copyright (C) 2019 The "sdnaNetwork/node" Authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,10 +21,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/market"
-	discovery_registry "github.com/mysteriumnetwork/node/market/proposals/registry"
-	"github.com/mysteriumnetwork/node/utils"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/market"
+	discovery_registry "github.comskytells-research/DNA/network/node/market/proposals/registry"
+	"github.comskytells-research/DNA/network/node/utils"
 )
 
 // ID represent unique identifier of the running service.

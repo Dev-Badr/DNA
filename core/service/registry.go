@@ -18,7 +18,7 @@
 package service
 
 import (
-	"github.com/mysteriumnetwork/node/market"
+	"github.comskytells-research/DNA/network/node/market"
 )
 
 // RegistryFactory initiates instance which is able to serve

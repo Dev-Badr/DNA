@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The "MysteriumNetwork/node" Authors.
+ * Copyright (C) 2019 2019 Skytells, Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ package mapping
 import (
 	"time"
 
-	"github.com/mysteriumnetwork/node/nat/traversal"
+	"github.comskytells-research/DNA/network/node/nat/traversal"
 
 	log "github.com/cihub/seelog"
 	portmap "github.com/ethereum/go-ethereum/p2p/nat"

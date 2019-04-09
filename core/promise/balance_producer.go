@@ -18,7 +18,7 @@
 package promise
 
 import (
-	"github.com/mysteriumnetwork/node/communication"
+	"github.comskytells-research/DNA/network/node/communication"
 )
 
 // BalanceMessageProducer sends balance notification to thought communication channel.

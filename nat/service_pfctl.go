@@ -26,7 +26,7 @@ import (
 	"sync"
 
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/utils"
+	"github.comskytells-research/DNA/network/node/utils"
 )
 
 type servicePFCtl struct {

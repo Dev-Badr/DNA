@@ -19,9 +19,9 @@ package registry
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/mysteriumnetwork/node/identity"
-	payments_identity "github.com/mysteriumnetwork/payments/identity"
-	"github.com/mysteriumnetwork/payments/registry"
+	"github.comskytells-research/DNA/network/node/identity"
+	payments_identity "github.comskytells-research/DNA/network/payments/identity"
+	"github.comskytells-research/DNA/network/payments/registry"
 )
 
 // FakeRegistrationDataProvider fake registration data provider

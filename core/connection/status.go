@@ -18,8 +18,8 @@
 package connection
 
 import (
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/session"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/session"
 )
 
 // State represents list of possible connection states

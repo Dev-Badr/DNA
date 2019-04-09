@@ -22,11 +22,11 @@ import (
 	"sync"
 
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/consumer"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/session"
-	"github.com/mysteriumnetwork/node/session/promise"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/consumer"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/session"
+	"github.comskytells-research/DNA/network/node/session/promise"
 )
 
 // StubPublisherEvent represents the event in publishers history

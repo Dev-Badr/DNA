@@ -23,11 +23,11 @@ import (
 	"time"
 
 	log "github.com/cihub/seelog"
-	"github.com/mysteriumnetwork/node/communication"
-	"github.com/mysteriumnetwork/node/core/promise"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/market"
-	"github.com/mysteriumnetwork/node/money"
+	"github.comskytells-research/DNA/network/node/communication"
+	"github.comskytells-research/DNA/network/node/core/promise"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/market"
+	"github.comskytells-research/DNA/network/node/money"
 )
 
 const (

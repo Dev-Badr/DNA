@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mysteriumnetwork/node/core/promise"
-	"github.com/mysteriumnetwork/node/money"
-	"github.com/mysteriumnetwork/node/session"
+	"github.comskytells-research/DNA/network/node/core/promise"
+	"github.comskytells-research/DNA/network/node/money"
+	"github.comskytells-research/DNA/network/node/session"
 	"github.com/stretchr/testify/assert"
 )
 

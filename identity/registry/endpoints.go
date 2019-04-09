@@ -22,8 +22,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/julienschmidt/httprouter"
-	"github.com/mysteriumnetwork/node/identity"
-	"github.com/mysteriumnetwork/node/tequilapi/utils"
+	"github.comskytells-research/DNA/network/node/identity"
+	"github.comskytells-research/DNA/network/node/tequilapi/utils"
 )
 
 // SignatureDTO represents Elliptic Curve signature parts

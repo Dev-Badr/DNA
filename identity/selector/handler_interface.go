@@ -17,7 +17,7 @@
 
 package selector
 
-import "github.com/mysteriumnetwork/node/identity"
+import "github.comskytells-research/DNA/network/node/identity"
 
 // Handler allows selecting identity to be used
 type Handler interface {

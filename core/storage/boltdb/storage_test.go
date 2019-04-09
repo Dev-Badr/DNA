@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The "MysteriumNetwork/node" Authors.
+ * Copyright (C) 2019 The "sdnaNetwork/node" Authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mysteriumnetwork/node/core/storage/boltdb/boltdbtest"
+	"github.comskytells-research/DNA/network/node/core/storage/boltdb/boltdbtest"
 )
 
 type myTestType struct {

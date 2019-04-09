@@ -10,7 +10,7 @@ Skytells DNA is the world's first AI-Powered Decentralized Network Architecture.
 
 In order to understand how Skytells DNA works, You may have to look at this graph.
 
-[![N|Skytells DNA](https://raw.githubusercontent.com/skytells-research/DNA/master/resources/graph/toplogy.png)](https://www.skytells.org)
+[![N|Skytells DNA](https://raw.githubusercontent.com/skytells-research/DNA/master/resources/graph/topology.png)](https://www.skytells.org)
 
 
 So, Skytells DNA is
